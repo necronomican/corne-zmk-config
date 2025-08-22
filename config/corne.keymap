@@ -68,10 +68,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(LPAR)    &kp LS(RPAR)  &kp LS(AMPS)  &kp MINUS  &kp EQUAL  &kp BSLH       &trans
-&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(LT)    &kp LS(LBRC)    &kp LS(RBRC)  &kp LS(GT)    &kp DEL    &trans     &kp SEMICOLON  &trans
-&trans  &kp LS(AMPS)  &kp LS(STAR)   &kp GRAVE      &trans        &kp LBKT        &kp RBKT      &trans        &kp COMMA  &kp DOT    &kp FSLH       &trans
-                                     &trans         &trans        &trans          &trans        &trans        &trans
+&trans  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LS(AMPS)  &kp MINUS  &kp EQUAL  &kp BSLH       &trans
+&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(LT)    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(GT)    &kp DEL    &trans     &kp SEMICOLON  &trans
+&trans  &kp LS(AMPS)  &kp LS(STAR)   &kp GRAVE      &trans        &kp LBKT                &kp RBKT               &trans        &kp COMMA  &kp DOT    &kp FSLH       &trans
+                                     &trans         &trans        &trans                  &trans                 &trans        &trans
             >;
         };
 
